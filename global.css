@@ -128,7 +128,7 @@ button:hover {
 
 /*Media Queries*/
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1300px) {
     .wrapper {
         width: 80%;
     }
@@ -155,12 +155,90 @@ button:hover {
 
 @media screen and (max-width: 860px) {
     .wrapper {
-        width: 70%;
+        display: inherit;
+        width: 88%;
         margin-top: 5rem;
+        margin-right: -0rem;
         margin: 0;
         left: 50px;
         top: 100px;
-    }#avatar {display: none;}
+        overflow-x: hidden;
+    }
+    #avatar {display: none;}
+    .nameimg {
+        margin-left: 14rem;
+        margin-right: inherit;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .nameimg {
+        margin-left: 9rem;
+        margin-right: inherit;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .nameimg {
+        margin-left: 8rem;
+        margin-right: inherit;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .nameimg {
+        margin-left: 7rem;
+        margin-right: inherit;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nameimg {
+        margin-left: 6rem;
+        margin-right: inherit;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .nameimg {
+        margin-left: 4rem;
+        margin-right: inherit;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .nameimg {
+        margin-left: 3rem;
+        margin-right: inherit;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .nameimg {
+        margin-left: 2rem;
+        margin-right: inherit;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .nameimg {
+        margin-left: 0.5rem;
+        margin-right: inherit;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .nameimg {
+        margin-left: 2rem;
+        margin-right: inherit;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .nameimg {
+        margin-left: 1rem;
+        margin-right: inherit;
+    }
 }
 
 @media screen and (max-width: 630px) {
