@@ -49,6 +49,8 @@ a:visited {color:rgb(255, 255, 255)}
 .wrapper {
     display: grid;
     align-items: center;
+    align-content: center;
+    justify-items: center;
     position: relative;
     color: white;
     z-index: 50;
@@ -62,9 +64,8 @@ a:visited {color:rgb(255, 255, 255)}
     animation-duration: 2s;
 }
 
-.nameimg {
-    margin-left: auto;
-    margin-right: 21rem;
+.nameimg { 
+    align-self: center;
     width: 280px;
     height: auto;
 }
@@ -155,7 +156,6 @@ button:hover {
 
 @media screen and (max-width: 860px) {
     .wrapper {
-        display: inherit;
         width: 88%;
         margin-top: 5rem;
         margin-right: -0rem;
@@ -165,80 +165,6 @@ button:hover {
         overflow-x: hidden;
     }
     #avatar {display: none;}
-    .nameimg {
-        margin-left: 14rem;
-        margin-right: inherit;
-    }
-}
-
-@media screen and (max-width: 750px) {
-    .nameimg {
-        margin-left: 9rem;
-        margin-right: inherit;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .nameimg {
-        margin-left: 8rem;
-        margin-right: inherit;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .nameimg {
-        margin-left: 7rem;
-        margin-right: inherit;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .nameimg {
-        margin-left: 6rem;
-        margin-right: inherit;
-    }
-}
-
-@media screen and (max-width: 550px) {
-    .nameimg {
-        margin-left: 4rem;
-        margin-right: inherit;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .nameimg {
-        margin-left: 3rem;
-        margin-right: inherit;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .nameimg {
-        margin-left: 2rem;
-        margin-right: inherit;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .nameimg {
-        margin-left: 0.5rem;
-        margin-right: inherit;
-    }
-}
-
-@media screen and (max-width: 350px) {
-    .nameimg {
-        margin-left: 2rem;
-        margin-right: inherit;
-    }
-}
-
-@media screen and (max-width: 300px) {
-    .nameimg {
-        margin-left: 1rem;
-        margin-right: inherit;
-    }
 }
 
 @media screen and (max-width: 630px) {
