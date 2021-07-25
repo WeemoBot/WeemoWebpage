@@ -21,7 +21,11 @@ body {
     height: 100%;
     overflow-x: hidden;
     background-color: var(--site-accent);
-    background-image: url("assets/img/background.png");
+    background-image: url("/assets/img/landing-page-background-pattern.png");
+	background-size: 70%;
+	background-repeat: repeat-all;
+	
+	text-shadow: 4px 4px #2c2c2c;
 }
 
 /*Custom Scrollbar*/
@@ -92,6 +96,8 @@ button {
 	cursor: pointer;
 	outline: inherit;
     transition: 0.3s;
+	
+	text-shadow: 2px 2px 2px #2c2c2c;
 }
 
 button:hover {
@@ -126,6 +132,8 @@ button:hover {
     animation-duration: 2s;
     z-index: 1 !important;
     border-radius: 500px;
+	
+	border: 5px solid #2c2c2c;
 }
 
 /*Media Queries*/
